@@ -49,7 +49,6 @@ const DropDownList = styled.ul<ListProps>`
     right: 0;
     top: 2em;
     min-width: initial;
-    /* transform: translate(0, -50%); */
 
     ${Backdrop} {
       visibility: visible;

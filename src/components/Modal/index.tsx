@@ -1,6 +1,6 @@
 import { useRef, useEffect, CSSProperties } from 'react';
 import { Title } from '../Title';
-import './Modal.scss';
+import './styles.scss';
 
 export default function Modal({
   children,

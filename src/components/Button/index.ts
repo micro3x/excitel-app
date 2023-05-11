@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-// import * as constants from "../../constants/styledConstants";
 
 const constants = {
   colorSecondary: '#ffc107',
@@ -7,10 +6,9 @@ const constants = {
 
 interface Props {
   type?: 'button' | 'submit' | 'reset';
-  kind?: 'standard' | 'outlined' | 'standardOld'; // | 'fancy';
+  kind?: 'standard' | 'outlined' | 'standardOld';
 }
 
-//This is more of an experiment and just playing with styled-components. But we may end up using it.
 const outlined = `
     background-color: transparent;
     border: 1px solid ${constants.colorSecondary};

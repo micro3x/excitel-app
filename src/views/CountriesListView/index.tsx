@@ -6,7 +6,7 @@ import Pagination from '../../components/PaginationControls';
 import TableProvider from '../../components/CountriesTable/tableContext';
 import { Title } from '../../components/Title';
 import Spinner from '../../components/Spinner';
-import Modal from '../../components/Modal/Modal';
+import Modal from '../../components/Modal';
 import ViewCountryProfile from '../../components/ViewCountryProfile';
 
 const CountriesListView = () => {

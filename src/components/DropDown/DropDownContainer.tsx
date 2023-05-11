@@ -32,7 +32,6 @@ const DropDownContainer = styled.div<ContainerProps>`
       left: 10px;
       right: 10px;
 
-      //[I]Removing the placeholder because it looks bad. Will re-enable it later when I figure a proper design.
       & > div > span {
         display: none;
       }
@@ -55,7 +54,6 @@ const DropDownContainer = styled.div<ContainerProps>`
     width: 100%;
     max-width: 100%;
     min-width: 0;
-    // display: block;
 
     input {
       width: 100%;
