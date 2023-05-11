@@ -1,0 +1,26 @@
+.layout {
+  > nav {
+    border-bottom: 2px solid #ffc107;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      li {
+        padding: 1em;
+        border-right: 1px solid white;
+
+        &:hover {
+          cursor: pointer;
+          background-color: #ffc10738;
+        }
+
+        &.active {
+          background-color: #ffc107;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.table-row {
+  .latLng {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .hide-on-1150 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hide-on-1000 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .hide-on-850 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .hide-on-750 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hide-on-600 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hide-on-450 {
+    display: none;
+  }
+}

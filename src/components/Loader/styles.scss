@@ -1,0 +1,16 @@
+.loader{
+  position: fixed;
+  height: 10px;
+  width: 50px;
+  background-color: gray;
+  border: 1px solid black;
+
+  .loader-bar {
+    position: absolute;
+    border-radius: inherit;
+    top: 0;
+    left: 0;
+    background-color: red;
+    height: 10px;
+  }
+}
