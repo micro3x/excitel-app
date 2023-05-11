@@ -1,4 +1,4 @@
-import React, { useCallback, useMemo, useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import './styles.scss';
 import { Title } from '../../components/Title';
 import DropDown, { DropDownItem } from '../../components/DropDown';

@@ -1,4 +1,4 @@
-export const useTimer = <A = unknown, R = void>(
+export const useTimer = <R = void>(
   callback: (timeRun: number) => R,
   tickInterval: number
 ): [() => void, () => void] => {

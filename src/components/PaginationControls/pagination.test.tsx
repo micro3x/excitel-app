@@ -1,6 +1,5 @@
 import { act, fireEvent, render, screen } from '@testing-library/react';
 import Pagination from '.';
-import { Mock } from 'vitest';
 import { Country } from '../../api/countriesApi';
 import { TableContext, TableContextType } from '../CountriesTable/tableContext';
 
@@ -60,8 +59,6 @@ const fakeContext = {
   setSortOrder: vi.fn(),
   setFilters: vi.fn(),
 };
-
-const itemShow = vi.fn();
 
 function renderWithFakeTableContext(context: TableContextType = fakeContext) {
   return render(

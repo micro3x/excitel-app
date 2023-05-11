@@ -38,7 +38,7 @@ export default function CountriesTable(props: CountriesTableProps) {
     });
   }, []);
 
-  const handleAbortClick = useCallback((data: Country) => {
+  const handleAbortClick = useCallback(() => {
     abort();
     animStop();
     setLoaderPercent(0);
@@ -57,8 +57,8 @@ export default function CountriesTable(props: CountriesTableProps) {
                 key={`rowNumber${rowNumber}`}
                 data={data}
                 rowNumber={rowNumber}
-                onMouseDown={(e) => handleRowClick(data)}
-                onMouseUp={(e) => handleAbortClick(data)}
+                onMouseDown={() => handleRowClick(data)}
+                onMouseUp={() => handleAbortClick()}
               />
             ))}
             {paginatedData[currentPage]?.length < 1 && <div>No data</div>}
