@@ -20,7 +20,7 @@ const CountriesSearchView = () => {
     }
     searchCountries(value.toLowerCase()).then((countries) => {
       setData(
-        countries.map((country: Country) => ({
+        countries.slice(0, 10).map((country: Country) => ({
           name: country.name,
           value: country.code,
           data: country,
