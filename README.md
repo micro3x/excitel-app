@@ -19,3 +19,4 @@
 - `npm run lint` (lint check)
 - `npm run preview` (preview in a production like env)
 - `npm run test` (run unit tests)
+- `npm run coverage` (run unit tests coverage)
